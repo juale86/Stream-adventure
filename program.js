@@ -1,3 +1,4 @@
+'use strict'
 // Ej 2
 //const fs = require('fs')
 //fs.createReadStream(process.argv[2]).pipe(process.stdout);
@@ -65,3 +66,18 @@
 //stream.write('hello\n');
 
 // Ej 10:
+//const trumpet = require('trumpet');
+//const tr = trumpet();
+//tr.pipe(process.stdout)
+//var stream = tr.select('.loud').createStream();
+//
+//const th = require('through2')
+//function write(buffer, _, cb){
+//	this.push(buffer.toString().toUpperCase())
+//	cb();
+//}
+//
+//stream.pipe(th(write)).pipe(stream)
+//process.stdin.pipe(tr)
+
+// Ej 11:
